@@ -59,6 +59,14 @@ export default function Home() {
           setTimeQuantum={setTimeQuantum}
           setPriorities={setPriorities}
         />
+         <Output
+          selectedAlgo={selectedAlgo}
+          arrivalTime={arrivalTime}
+          burstTime={burstTime}
+          jobIds={jobIds}
+          timeQuantum={timeQuantum}
+          priorities={priorities}
+        />
       </Main>
       <Footer className="container">
         <a
